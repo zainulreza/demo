@@ -140,7 +140,7 @@
 							<textarea name="message" id="message" rows="6"></textarea>
 						</div>
 						<ul class="actions">
-							<li><input type="submit" value="Send Message" class="alt" /></li>
+							<li><input type="Submit" value="Send Message" class="alt" /></li>
 						</ul>
 					</form>
                     <style>
@@ -157,7 +157,7 @@
                         
                         <div class="footer">
                             <div class="copyright">
-                                &copy; Bytefury <a href="https://www.bytefury.com/"> 
+                               <b> &copy; Bytefury 2020 </b> <a href="https://www.bytefury.com/"> 
                             </div>
                         </div>
 				</div>
