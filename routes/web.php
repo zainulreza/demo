@@ -16,9 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('contact', 'ContactController@create')->name('contact.create');
-Route::post('contact', 'ContactController@store')->name('contact.store');
-Route::get('contact', 'ContactController@store')->email('email.create');
-Route::post('contact', 'ContactController@store')->email('email.store');
-Route::get('contact', 'ContactController@store')->message('message.create');
-Route::post('contact', 'ContactController@store')->message('email.stores');
+//Route::get('contact', 'ContactController@create')->name('contact.create');
+//Route::post('contact', 'ContactController@store')->name('contact.store');
+//Route::get('contact', 'ContactController@store')->email('email.create');
+//Route::post('contact', 'ContactController@store')->email('email.store');
+//Route::get('contact', 'ContactController@store')->message('message.create');
+//Route::post('contact', 'ContactController@store')->message('email.stores');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

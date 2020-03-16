@@ -21,6 +21,7 @@
 						<a href="index.html">Home</a>
 						<a href="generic.html">About Us</a>
 						<a href="elements.html">Contact Us</a>
+						<a href="http://demo.test/login/"> Log in</a>
 					</nav>
 				</div>
 			</header>
@@ -29,8 +30,7 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
-					<h1>Bytefury: <span>Web Development And Web Applicaton<br />
-					To know more go kill this button</span></h1>
+					<h1>Bytefury: <span>Web Development And Web Applicaton <br><b>To know more go kill this button</b></span></h1>
 					<ul class="actions">
 						<li><a href="#" class="button alt">Get Started</a></li>
 					</ul>
@@ -41,7 +41,7 @@
 			<section id="one">
 				<div class="inner">
 					<header>
-						<h2>Magna Etiam Lorem</h2>
+						<h2>We </h2>
 					</header>
 					<p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu, erisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante.</p>
 					<ul class="actions">
@@ -144,7 +144,7 @@
 						</ul>
 					</form>
                     <style>
-                        .footer {
+                		  .footer {
                           position: fixed;
                           left: 0;
                           bottom: 0;
